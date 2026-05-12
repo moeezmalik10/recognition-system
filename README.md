@@ -7,14 +7,30 @@ Architecture — A fully connected MLP: input (30,000) → hidden (256, sigmoid)
 Training — Cross-entropy loss minimized via gradient descent with Xavier/Glorot weight initialization over up to 2,000 epochs.
 Inference — Predicts the identity of a test image along with a confidence score (%).
 
+
 Tech Stack
+
+
 Python · NumPy · Pillow · Matplotlib · Google Colab
+
+
 Dataset Structure
+
+
 /MyDrive/test/
+
+
 ├── PersonA/   ← training images
+
+
 ├── PersonB/
+
+
 ├── PersonC/
+
+
 └── test/      ← test images
+
 Features
 
 No PyTorch / TensorFlow — pure NumPy implementation
